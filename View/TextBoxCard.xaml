@@ -1,0 +1,51 @@
+﻿<UserControl x:Class="V2Wnd.View.TextBoxCard"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:V2Wnd.View"
+             xmlns:mlang="clr-namespace:V2Wnd.Resource"
+             mc:Ignorable="d"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+             TextElement.FontWeight="Regular"
+             TextElement.FontSize="13"
+             TextOptions.TextFormattingMode="Ideal"
+             TextOptions.TextRenderingMode="Auto"
+             Background="{DynamicResource MaterialDesignPaper}"
+             FontFamily="{DynamicResource MaterialDesignFont}"
+             d:DesignHeight="450"
+             d:DesignWidth="800">
+
+    <materialDesign:Card Background="#03a9f4"
+                         Foreground="{DynamicResource PrimaryHueDarkForegroundBrush}"
+                         Padding="0"
+                         Width="150"
+                        Height="80"
+                         UniformCornerRadius="6">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="4*" />
+                <RowDefinition Height="1*" />
+                <RowDefinition Height="5*" />
+            </Grid.RowDefinitions>
+            <TextBlock Grid.Row="0" x:Name="LabelText"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Center"
+                       FontSize="16"
+                       Style="{StaticResource MaterialDesignHeadlineTextBlock}" Text="The Card Label" >
+            </TextBlock>
+            <Separator Grid.Row="1" Height="1"
+                       Style="{StaticResource MaterialDesignLightSeparator}" />
+            <TextBox Grid.Row="2" x:Name="TextValue"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Center"
+                     FontSize="15"
+                     Margin="0 0 0 5"
+                     Style="{StaticResource MaterialDesignTextBox }" Text="10888">
+            </TextBox>
+        </Grid>
+    </materialDesign:Card>
+</UserControl>
+
+    

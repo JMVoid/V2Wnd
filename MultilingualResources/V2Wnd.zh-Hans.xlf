@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <file datatype="xml" source-language="en-US" target-language="zh-Hans" original="V2WND/RESOURCE/MAINWINDOW.RESX" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.6914.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="V2WND/C:/USERS/JMVOID/SOURCE/REPOS/V2WND/RESOURCE/MAINWINDOW.RESX">
+        <trans-unit id="AllowLAN" translate="yes" xml:space="preserve">
+          <source>Allow LAN Access</source>
+          <target state="new">Allow LAN Access</target>
+        </trans-unit>
+        <trans-unit id="GeneralPage" translate="yes" xml:space="preserve">
+          <source>General Setting</source>
+          <target state="new">General Setting</target>
+        </trans-unit>
+        <trans-unit id="HelperPage" translate="yes" xml:space="preserve">
+          <source>Help</source>
+          <target state="new">Help</target>
+        </trans-unit>
+        <trans-unit id="HttpPort" translate="yes" xml:space="preserve">
+          <source>Http Local Port</source>
+          <target state="new">Http Local Port</target>
+        </trans-unit>
+        <trans-unit id="LoggingPage" translate="yes" xml:space="preserve">
+          <source>Logging</source>
+          <target state="new">Logging</target>
+        </trans-unit>
+        <trans-unit id="LogLevel" translate="yes" xml:space="preserve">
+          <source>Logging Level</source>
+          <target state="new">Logging Level</target>
+        </trans-unit>
+        <trans-unit id="ModePage" translate="yes" xml:space="preserve">
+          <source>Mode Change</source>
+          <target state="new">Mode Change</target>
+        </trans-unit>
+        <trans-unit id="ProxiesPage" translate="yes" xml:space="preserve">
+          <source>Proxies</source>
+          <target state="new">Proxies</target>
+        </trans-unit>
+        <trans-unit id="RoutingPage" translate="yes" xml:space="preserve">
+          <source>Routing Setting</source>
+          <target state="new">Routing Setting</target>
+        </trans-unit>
+        <trans-unit id="SocksPort" translate="yes" xml:space="preserve">
+          <source>Socks5 Local Port</source>
+          <target state="new">Socks5 Local Port</target>
+        </trans-unit>
+        <trans-unit id="StartWithStartup" translate="yes" xml:space="preserve">
+          <source>Start app when startup</source>
+          <target state="new">Start app when startup</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
